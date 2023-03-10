@@ -1,45 +1,38 @@
-1. Current directory check in Linux
-Ans:  pwd
-comment: we use the pwd command in the Linux system. pwd (print working directory)
+1. Make a new directory(folder)
+Ans: mkdir file1
+Commnet: Directory means Folder.
 
-2. Directory create Command
-Ans: mkdir foldername
-Commnet: Directory means Folder.  Ex. mkdir file1
-  
-3. File create Command
-Ans: touch filename
-Comment: ex. touch test
-    
-4.Delete File in Linux
-Ans: rm filename
-comment: if here file name is test then delete command is rm test
-  
-5. Delete filder in Linux
-Ans: rm -r folder name
-Comment: sometimes use rm -rf (for forcely delete)
+2.Create text file using touch
+Ans: touch test1
 
-6. Working directory change
+3. Delete a single file
+Ans: rm file1
+
+4.Change working directory
 Ans: cd
-Comment: we use cd command for change directory like cd/var/mail
 
-7. One directory back command & To navigate to your home directory
-Ans: cd ..   /    cd ~
+5. how to Move to parent folder using cd
+Ans: cd ~
 
-8. Hidden folder/directory showing command
-Ans:  ls -al
+6.List contents of a folder including hidden files
+Ans: ls -al
 
-9. Change Hostname
-Ans:sudo nano /etc/hostname
+7.Print current directory
+Ans: pwd
+
+8. How to set hostname
+Ans: sudo nano /etc/hostname
 after this command we have to change current host and save it and then use 
 sudo nano /etc/hosts 
 and change also host and save it. after we have to use 
 sudo reboot 
 
-10. time zone change command
+9. How to set timezone
 Ans: timedatectl
 to set timezone using this command:
 sudo timedatectl set-timezone Asia/Dhaka
 
-11. Move file or directory
-Ans: mv file/folder name location
-Comment: Also we use mv command for rename
+10. How to move file /tmp
+Ans:  mv file1 /tmp
+Comment: Also mv use for rename
+  
