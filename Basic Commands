@@ -22,6 +22,7 @@ Ans: pwd
 
 8. How to set hostname
 Ans: 
+hostnamectl
 sudo hostnamectl set-hostname new-hostname
 or
 sudo nano /etc/hostname
