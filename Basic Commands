@@ -21,15 +21,15 @@ Ans: ls -al
 Ans: pwd
 
 8. How to set hostname
-Ans: sudo nano /etc/hostname
-after this command we have to change current host and save it and then use 
+Ans: 
+sudo hostnamectl set-hostname new-hostname
+or
+sudo nano /etc/hostname
 sudo nano /etc/hosts 
-and change also host and save it. after we have to use 
 sudo reboot 
 
 9. How to set timezone
 Ans: timedatectl
-to set timezone using this command:
 sudo timedatectl set-timezone Asia/Dhaka
 
 10. How to move file /tmp
